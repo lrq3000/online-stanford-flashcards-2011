@@ -62,13 +62,17 @@ http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-c
 12- Go take a beer, you deserve it.
 
 === Guidelines for contribution
-If you want to contribute, please follow the guidelines for making a good question and answer:
+If you want to contribute, please follow these guidelines for making a good question and answer:
 - short
 - no enumeration or very short
 - good tags
 - NO assignement or homework answer (quizz is ok)
+
+More guidelines:
 http://ankisrs.net/docs/TheTimerAndShortQuestions.html
 http://www.supermemo.com/articles/20rules.htm
+
+Note: these guidelines aren't engraved in stone, if you find that a material should be included but it cannot be broke down into a short answer, then you should still include it. Just try to follow the guidelines as often as possible, but bending the rules once or twice should not be alarming.
 
 === Publications
 This project is based on the latest findings in the education and pedagogical field, more specifically:
