@@ -1,0 +1,39 @@
+*************************************************************************
+* Collaborative flashcards for the online Stanford classes of fall 2011 *
+*************************************************************************
+
+=== Description
+The aim of this project is to create a collaborative set of flashcards decks for the online Stanford classes.
+
+We believe that the community effort combined with the technologies offered by nowadays automatic flashcards management softwares can produce a quasi-personalized review and exercises training program for each student.
+
+This should result in a far higher long-term retention of the knowledge, a better recalling as well as a better induction (propagation of the intuition behind a concept).
+
+=== Technical choices
+We chose to use Anki as a the software framework for this project because Anki:
+- is opensource
+- supports all the major OSes (Windows, Linux, MacOSX)
+- supports embedded medias (images, sounds, etc..)
+- supports Latex equations
+- has a desktop, web and mobile versions
+- supports the sharing of the decks
+- has an active development
+
+Unfortunately, Anki does not yet supports the collaborative sharing of decks, so we chose to use a revision control system as the medium for the collaborative process, more specifically Git and Github, since we think appropriate to use the distributed "fork+push request" model and easy forking and merging facilities that Github offers us.
+
+=== Publications
+This project is based on the latest findings in the education and pedagogical field, more specifically:
+- Spaced learning
+- Test-enhanced learning
+
+You can find more informations on the following links:
+http://ctlt.ubc.ca/about-isotl/resources-archives/the-cognitive-science-of-learning-enhancement-optimizing-long-term-retention/
+http://innovationunit.org/sites/default/files/Spaced%20Learning%20toolkit.pdf
+http://www.monkseaton.org.uk/spaced/Pages/default.aspx
+
+Some other interesting findings in the field:
+
+- Using gestures can help a lot the learning process: http://www.sciencedaily.com/releases/2011/01/110105121125.htm
+- Sleeping is utterly important to memorize, and can be used to categorize your thoughts for you:
+http://www.york.ac.uk/news-and-events/news/2010/research/sleep-collecting-thoughts/
+http://www.sciencedaily.com/releases/2010/11/101113165441.htm
