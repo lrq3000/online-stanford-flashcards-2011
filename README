@@ -21,6 +21,55 @@ We chose to use Anki as a the software framework for this project because Anki:
 
 Unfortunately, Anki does not yet supports the collaborative sharing of decks, so we chose to use a revision control system as the medium for the collaborative process, more specifically Git and Github, since we think appropriate to use the distributed "fork+push request" model and easy forking and merging facilities that Github offers us.
 
+=== How to download and use the flashcards
+
+1- Download Anki: http://ankisrs.net/
+
+2- Download the latest version of the decks at:
+https://github.com/lrq3000/online-stanford-flashcards-2011/zipball/master
+OR download them directly from Anki's premade decks downloader (click on the Download button on the main page, and search for Stanford Online Class 2011).
+
+3- Enjoy!
+
+=== How to contribute
+
+1- Follow the instructions in the chapter "How to download and use the flashcards"
+
+2- Add your own questions (and even templates if you want), see Anki's wiki: http://ankisrs.net/docs/manual.html#_the_basics
+or the official video tutorial: http://www.youtube.com/watch?v=c0dI2VyLDWw&feature=PlayList&p=4221D2E6B440D79B&playnext_from=PL&index=0&playnext=1
+
+3- Create an account on Github.com: https://github.com/signup/free
+
+4- Fork the decks: Go to https://github.com/lrq3000/online-stanford-flashcards-2011 and click on Fork
+
+5- Install Git on your computer (for Windows I advise TortoiseGit or msysgit [as the last resort, TortoiseGit is far better and more stable currently than msysgit]).
+Some tutorials for Git:
+http://nathanj.github.com/gitguide/tour.html
+http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-commands/
+
+6- Clone your forked repository on your computer using Git
+
+7- Export as a "compressed anki packet" each of your decks
+
+8- Unzip your compressed anki packets and copy the contained files into your local clone of the git repository (done at step 6)
+
+9- Git commit and push (and please sign your commits!)
+
+10- Redo all the previous steps whenever you update your deck(s)
+
+11- Pull request when you are glad with your commits, this will ask the main repository to merge your commits. In summary, this will permit everyone to benefit from your changes.
+
+12- Go take a beer, you deserve it.
+
+=== Guidelines for contribution
+If you want to contribute, please follow the guidelines for making a good question and answer:
+- short
+- no enumeration or very short
+- good tags
+- NO exercises answer
+http://ankisrs.net/docs/TheTimerAndShortQuestions.html
+http://www.supermemo.com/articles/20rules.htm
+
 === Publications
 This project is based on the latest findings in the education and pedagogical field, more specifically:
 - Spaced learning
