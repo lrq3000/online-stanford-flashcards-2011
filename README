@@ -15,13 +15,13 @@ We chose to use Anki as a the software framework for this project because Anki:
 - supports all the major OSes (Windows, Linux, MacOSX)
 - supports embedded medias (images, sounds, etc..)
 - supports Latex equations
-- has a desktop, web and mobile versions
-- supports the sharing of the decks
+- has a desktop, web and mobile versions and synchronization of your decks and progress between all these mediums
+- supports the public sharing of the decks
 - has an active development
 
 Unfortunately, Anki does not yet supports the collaborative sharing of decks, so we chose to use a revision control system as the medium for the collaborative process, more specifically Git and Github, since we think appropriate to use the distributed "fork+push request" model and easy forking and merging facilities that Github offers us.
 
-=== How to download and use the flashcards
+=== Users: How to download and use the flashcards
 
 1- Download Anki: http://ankisrs.net/
 
@@ -31,7 +31,20 @@ OR download them directly from Anki's premade decks downloader (click on the Dow
 
 3- Enjoy!
 
-=== How to contribute
+=== Users: How to update a deck
+Unfortunately, this process is quite a bit complicated as of now. Anki plans to fully support Study Groups in the next major release with synchronized decks, but for now we have to be on our own.
+
+The packages on the Anki premade decks repository will regularly be maintained up to date, so you can just redownload them to get the latest version.
+
+The problem is that if you already have an older version of the decks, they won't be updated: the updated version will sit along the older versions.
+
+This leaves you with two choices:
+- Either delete the old decks each time you update, but you will lose your review progress
+- Keep each decks versions and use Selective study, using "weekx" tag, to study online updated materials for the week
+
+We will keep you updated if we find another way around.
+
+=== Developer: How to contribute
 
 1- Follow the instructions in the chapter "How to download and use the flashcards"
 
@@ -49,7 +62,7 @@ http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-c
 
 6- Clone your forked repository on your computer using Git
 
-7- Export as a "compressed anki packet" each of your decks
+7- Export as a "compressed anki packet" each of your decks (so that images are contained in the archive)
 
 8- Unzip your compressed anki packets and copy the contained files into your local clone of the git repository (done at step 6)
 
@@ -67,6 +80,9 @@ If you want to contribute, please follow these guidelines for making a good ques
 - no enumeration or very short
 - good tags
 - NO assignement or homework answer (quizz is ok)
+- please tag each question with the corresponding week (eg: week3 for the third week's material)
+- no multiple choices questions, prefer open questions (to force active recall)
+- avoid external material (except for images or definitions if they are related to the material learned in class, but generally prefer to include the material from the classes directly, which can be rephrased as you like)
 
 More guidelines:
 http://ankisrs.net/docs/TheTimerAndShortQuestions.html
