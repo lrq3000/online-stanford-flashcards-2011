@@ -18,6 +18,7 @@ We chose to use Anki as a the software framework for this project because Anki:
 - has a desktop, web and mobile versions and synchronization of your decks and progress between all these mediums
 - supports the public sharing of the decks
 - has an active development
+- can export and import in various formats
 
 Unfortunately, Anki does not yet supports the collaborative sharing of decks, so we chose to use a revision control system as the medium for the collaborative process, more specifically Git and Github, since we think appropriate to use the distributed "fork+push request" model and easy forking and merging facilities that Github offers us.
 
